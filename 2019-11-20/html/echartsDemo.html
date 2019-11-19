@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>echarts.js调用echarts进行图表绘制案例</title>
+    <script type="text/javascript" src='js/echarts.js'></script>
+	<script type="text/javascript" src='js/option1.js'></script>
+	<script type="text/javascript" src='js/option2.js'></script>
+	<script type="text/javascript" src='js/option3.js'></script>
+</head>
+<body>
+    <div id="chart" style="width:400px;height:400px;"></div>
+</body>
+<script type="text/javascript">
+
+    // 初始化图表标签
+    var myChart = echarts.init(document.getElementById('chart'));
+   
+    myChart.setOption(options2);
+</script>
+</html>
