@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FindBugs-IDEA">
+    <detectors>
+      <detector name="DefaultEncodingDetector" enabled="false" />
+      <detector name="DumbMethods" enabled="false" />
+      <detector name="FindReturnRef" enabled="false" />
+      <detector name="FindUnsatisfiedObligation" enabled="false" />
+      <detector name="LostLoggerDueToWeakReference" enabled="false" />
+      <detector name="MutableStaticFields" enabled="false" />
+    </detectors>
+  </component>
+</project>

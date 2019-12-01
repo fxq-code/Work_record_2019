@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bigDataTest.com (1)" />
+        <module name="bigDataTest.com (2)" />
+        <module name="bigDataTest.com (3)" />
+        <module name="com.cyl.jFreeChartTest" />
+        <module name="maven-archiver" />
+        <module name="rtrc-common-lib (1)" />
+        <module name="rtrc-common-lib (2)" />
+        <module name="rtrc-common-lib (3)" />
+        <module name="rtrc-common-lib (3) (com.phfund.rtrc)" />
+        <module name="rtrc-regist-center" />
+        <module name="rtrc-xshemd-reader-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bigDataTest.com (1)" target="1.6" />
+      <module name="bigDataTest.com (2)" target="1.5" />
+      <module name="bigDataTest.com (3)" target="1.6" />
+      <module name="com.cyl.jFreeChartTest" target="1.5" />
+      <module name="maven-archiver" target="1.5" />
+      <module name="rtrc-common-lib (1)" target="1.5" />
+      <module name="rtrc-common-lib (2)" target="1.5" />
+      <module name="rtrc-common-lib (3)" target="1.5" />
+      <module name="rtrc-common-lib (3) (com.phfund.rtrc)" target="1.5" />
+      <module name="rtrc-regist-center" target="1.8" />
+      <module name="rtrc-xshemd-reader-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

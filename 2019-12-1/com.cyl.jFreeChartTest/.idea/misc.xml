@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../rtrc-xshemd-reader-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../rtrc-regist-center/pom.xml" />
+        <option value="$PROJECT_DIR$/../rtrc-common-lib/target/classes/META-INF/maven/com.phfund.rtrc/rtrc-common-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/../rtrc-common-lib/target/classes/META-INF/maven/com.phfund.rtrc/rtrc-common-lib/pom.properties" />
+        <option value="$PROJECT_DIR$/../rtrc-common-lib/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/../rtrc-common-lib/pom.xml" />
+        <option value="$PROJECT_DIR$/../bigDataTest.com/target/classes/META-INF/maven/test.cyl.com/bigDataTest.com/pom.xml" />
+        <option value="$PROJECT_DIR$/../bigDataTest.com/target/classes/META-INF/maven/test.cyl.com/bigDataTest.com/pom.properties" />
+        <option value="$PROJECT_DIR$/../bigDataTest.com/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
+</project>
