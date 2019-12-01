@@ -183,53 +183,41 @@ public class EchartsPiDemo {
     }
 
 
-    public static  ArrayList<Series> genPiInfo(Object[] pidatas,int[] values) {
-        ItemStyle dataStyle = new ItemStyle();
-        dataStyle.normal().label(new Label().show(false)).labelLine().show(false);
-
-        ItemStyle placeHolderStyle = new ItemStyle();
-        placeHolderStyle.normal().color("rgba(0,0,0,0)").label(new Label().show(false)).labelLine().show(false);
-        placeHolderStyle.emphasis().color("rgba(0,0,0,0)");
-
-        //option.series(p1, p2, p3);
-        ArrayList<Series> seriesArrayList = new ArrayList<>();
-
-                Pie p1 = new Pie("1");
-        Series series1=p1.clockWise(false).radius(125, 150).itemStyle(dataStyle);
-        Object[] objects1={new Data("68%的人表示过的不错", 68),new Data("invisible", 32).itemStyle(placeHolderStyle)};
-
-        //series1.data(new Data("68%的人表示过的不错", 68),new Data("invisible", 32).itemStyle(placeHolderStyle));
-        ProxyInvokerHandlerUtil.processDataInvoker(series1,objects1);
-
-        Pie p2 = new Pie("2");
-        Series series2=p2.clockWise(false).radius(100, 125).itemStyle(dataStyle);
-        Object[] objects2={new Data("29%的人表示生活压力很大", 29),new Data("invisible", 71).itemStyle(placeHolderStyle)};
-        //series2.data(new Data("29%的人表示生活压力很大", 29),new Data("invisible", 71).itemStyle(placeHolderStyle));
-        ProxyInvokerHandlerUtil.processDataInvoker(series2,objects2);
-
-        Pie p3 = new Pie("3");
-        Series series3=p3.clockWise(false).radius(75, 100).itemStyle(dataStyle);
-        Object[] objects3={new Data("3%的人表示“我姓曾”", 3),new Data("invisible", 97).itemStyle(placeHolderStyle)};
-        //series3.data(new Data("3%的人表示“我姓曾”", 3),new Data("invisible", 97).itemStyle(placeHolderStyle));
-        ProxyInvokerHandlerUtil.processDataInvoker(series3,objects3);
-
-
-//        for (int i = 0; i < pidatas.length; i++) {
-//            Pie p1 = new Pie(i+"");
-//            Series series1=p1.clockWise(false).radius(125, 150).itemStyle(dataStyle);
-//            System.out.println(pidatas[i]);
-//            System.out.println(values[i]);
-//            Object[] objects1={new Data(pidatas[i], values[i]),new Data("invisible", 32).itemStyle(placeHolderStyle)};
+//    public static  ArrayList<Series> genPiInfo(Object[] pidatas,int[] values) {
+//        ItemStyle dataStyle = new ItemStyle();
+//        dataStyle.normal().label(new Label().show(false)).labelLine().show(false);
 //
-//            //series1.data(new Data("68%的人表示过的不错", 68),new Data("invisible", 32).itemStyle(placeHolderStyle));
-//            ProxyInvokerHandlerUtil.processDataInvoker(series1,objects1);
-//            seriesArrayList.add(p1);
-//        }
-
-        seriesArrayList.add(p1);
-        seriesArrayList.add(p2);
-        seriesArrayList.add(p3);
-
-        return  seriesArrayList;
-    }
+//        ItemStyle placeHolderStyle = new ItemStyle();
+//        placeHolderStyle.normal().color("rgba(0,0,0,0)").label(new Label().show(false)).labelLine().show(false);
+//        placeHolderStyle.emphasis().color("rgba(0,0,0,0)");
+//
+//        //option.series(p1, p2, p3);
+//        ArrayList<Series> seriesArrayList = new ArrayList<>();
+//
+//                Pie p1 = new Pie("1");
+//        Series series1=p1.clockWise(false).radius(125, 150).itemStyle(dataStyle);
+//        Object[] objects1={new Data("68%的人表示过的不错", 68),new Data("invisible", 32).itemStyle(placeHolderStyle)};
+//
+//        //series1.data(new Data("68%的人表示过的不错", 68),new Data("invisible", 32).itemStyle(placeHolderStyle));
+//        ProxyInvokerHandlerUtil.processDataInvoker(series1,objects1);
+//
+//        Pie p2 = new Pie("2");
+//        Series series2=p2.clockWise(false).radius(100, 125).itemStyle(dataStyle);
+//        Object[] objects2={new Data("29%的人表示生活压力很大", 29),new Data("invisible", 71).itemStyle(placeHolderStyle)};
+//        //series2.data(new Data("29%的人表示生活压力很大", 29),new Data("invisible", 71).itemStyle(placeHolderStyle));
+//        ProxyInvokerHandlerUtil.processDataInvoker(series2,objects2);
+//
+//        Pie p3 = new Pie("3");
+//        Series series3=p3.clockWise(false).radius(75, 100).itemStyle(dataStyle);
+//        Object[] objects3={new Data("3%的人表示“我姓曾”", 3),new Data("invisible", 97).itemStyle(placeHolderStyle)};
+//        //series3.data(new Data("3%的人表示“我姓曾”", 3),new Data("invisible", 97).itemStyle(placeHolderStyle));
+//        ProxyInvokerHandlerUtil.processDataInvoker(series3,objects3);
+//
+//
+//        seriesArrayList.add(p1);
+//        seriesArrayList.add(p2);
+//        seriesArrayList.add(p3);
+//
+//        return  seriesArrayList;
+//    }
 }

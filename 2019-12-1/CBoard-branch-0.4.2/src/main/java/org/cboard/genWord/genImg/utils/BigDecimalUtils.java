@@ -1,5 +1,7 @@
 package org.cboard.genWord.genImg.utils;
 
+import com.github.abel533.echarts.data.Data;
+
 import java.math.BigDecimal;
 import java.text.DecimalFormat;
 
@@ -7,6 +9,87 @@ import java.text.DecimalFormat;
  * Created by chenf on 2019/11/22.
  */
 public class BigDecimalUtils {
+
+
+    public static String genFormatterStr(Object[]originArr,Object[] distArr,int i){
+        String formatter2="";
+        if(!(((Data)originArr[i]).getValue()+"").toUpperCase().contains("E")){
+
+            if(new BigDecimal(((Data)distArr[i]).getValue()+"").compareTo(new BigDecimal(100))>0){
+                //说明需要展示的数据项的值是大于100的，这个时候就需要转换了
+                int len=(((Data)distArr[i]).getValue()+"").length()-2;
+
+                if(len<=3){
+                    // System.out.println("len1=="+len);
+                    ((Data)distArr[i]).setValue(Long.parseLong((((Data)distArr[i]).getValue()+""))/getDivideNum(len));
+                    // System.out.println("new value ="+((Data)temp[i]).getValue()+"");
+                    formatter2="function (value) {" +
+                            "switch (value) { " +
+                            "case 0: " +
+                            "return 0;" +//首位刻度
+
+                            "default: return value*"+getDivideNum(len)+"; " +
+                            "} " +
+                            "}";
+                }else{
+                    //如果数字有点大，则变通一波
+                    ((Data)distArr[i]).setValue(Long.parseLong((((Data)distArr[i]).getValue()+""))/getDivideNum(len));
+                    formatter2="function (value) {" +
+                            "switch (value) { " +
+                            "case 0: " +
+                            "return 0;" +//首位刻度
+
+                            "default: return value+'E"+len+"'; " +
+                            "} " +
+                            "}";
+
+                }
+
+
+            }else{
+
+
+                //如果没有超过100,那么就正常显示
+                formatter2="function (value) {" +
+                        "switch (value) { " +
+                        "case 0: " +
+                        "return 0;" +//首位刻度
+                        "default: return value; " +
+                        "} " +
+                        "}";
+            }
+
+        }else{
+            int len= new BigDecimal(((Data)distArr[i]).getValue()+"").toPlainString().length()-2;
+            //System.out.println("E"+len);
+            ((Data)distArr[i]).setValue(Long.parseLong((((Data)distArr[i]).getValue()+""))/getDivideNum(len));
+            formatter2="function (value) {" +
+                    "switch (value) { " +
+                    "case 0: " +
+                    "return 0;" +//首位刻度
+
+                    "default: return value+'E"+len+"'; " +
+                    "} " +
+                    "}";
+        }
+
+        return  formatter2;
+
+    }
+
+
+    //根据相应的 位数获得需要操作的相关的10*位数 的数字
+    public static Long getDivideNum(int len){
+        StringBuilder sb=new StringBuilder();
+        sb.append("1");
+        for (int i = 0; i < len; i++) {
+            sb.append("0");
+        }
+
+        return Long.parseLong(sb.toString());
+
+    }
+
     //将科学计数法的字符串转换成为 原来的数字，并以字符串的形式返回
     public static String convertPlainString(Object object){
         return  new BigDecimal(object.toString()).toPlainString();

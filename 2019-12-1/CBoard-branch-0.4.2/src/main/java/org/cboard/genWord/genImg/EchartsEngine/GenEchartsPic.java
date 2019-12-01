@@ -23,11 +23,12 @@ import static java.util.Collections.*;
 import static org.cboard.genWord.genImg.demo.EchartsCyclicDemo.genCyclic2Common;
 import static org.cboard.genWord.genImg.demo.EchartsCyclicDemo.genCyclicCommon;
 import static org.cboard.genWord.genImg.demo.EchartsFunnelDemo.genFunnelCommon;
+import static org.cboard.genWord.genImg.demo.EchartsGaugeDemo.genGaugeConmen;
 import static org.cboard.genWord.genImg.demo.EchartsHistogramDemo.genHistogramCommen;
 import static org.cboard.genWord.genImg.demo.EchartsLineDemo.getCurveLineOption;
 import static org.cboard.genWord.genImg.demo.EchartsLineDemo.getPieOption;
 import static org.cboard.genWord.genImg.demo.EchartsPiDemo.genPiConmen;
-import static org.cboard.genWord.genImg.demo.EchartsPiDemo.genPiInfo;
+
 
 public class GenEchartsPic {
 
@@ -146,6 +147,25 @@ public class GenEchartsPic {
 
     }
 
+
+
+    public static String genGaugeImg(String titile,String subtext,String formatter,Object[]piDatas,Object[] parts)throws IOException{
+        String uuidStr= UUID.randomUUID().toString();
+        String outfile=uuidStr + ".png";
+        String infile= uuidStr + ".json";
+
+        InputStream inputStream=GenEchartsPic.class.getClassLoader().getResourceAsStream("genEcharts.properties");
+        Properties properties=new Properties();
+        properties.load(inputStream);
+        JSpath=properties.getProperty("JSpath");
+        String outfilePath=properties.getProperty("outfilePath")+outfile;
+        String infilePath=properties.getProperty("infilePath");
+
+         boolean isSave = saveAsJsonFile(JsonFormatUtil.formatJson(genGaugeConmen(titile,subtext,formatter,piDatas,parts)), infilePath, infile);
+
+        return generateEChart(infilePath+"\\"+infile,outfilePath);
+
+    }
 
     public static String genPiImg_2(String titile,String subtext,String formatter,Object[]piDatas,ArrayList<Series> parts)throws IOException{
         String uuidStr= UUID.randomUUID().toString();
@@ -312,6 +332,12 @@ public class GenEchartsPic {
         int[]values={68,29,3000000};
         Object[]values1={68.64,29.98,3.4556789E12};
 
+        Object[] objects11={
+                new Data("访问", 3001),
+                new Data("咨询", 343074),
+                new Data("订单", 5.49E15),
+
+        };
 
         Object[] objects1={
                 new Data("访问", 30),
@@ -338,11 +364,12 @@ public class GenEchartsPic {
         };
 
 
+        genGaugeImg(legend,legend,piFormatter,funnelData,objects11);
         //System.out.println(genHistogramImg(legend,barName,xdatas,xLabelFormatter,ydatas,yLabelFormatter));
-        genPiImg(legend,barName,piFormatter,pidatas,values1);
+       // genPiImg(legend,barName,piFormatter,pidatas,values1);
 
         //genCyclicImg(legend,legend,piFormatter,pidatasCyclie,objects2);
-        genCyclic2Img(legend,legend,piFormatter,pidatasCyclie,objects2,objects21);
+       // genCyclic2Img(legend,legend,piFormatter,pidatasCyclie,objects2,objects21);
        // genFunnelImg(legend,legend,piFormatter,funnelData,objects1);
         //genCurveLineImg(legend,xdatas,xLabelFormatter,ydatas,yLabelFormatter,legend);
     }
