@@ -19,8 +19,8 @@
       <file leaf-file-name="Doc4jTest01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wh/test/Doc4jTest01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2765">
-              <caret line="97" column="27" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,100 +28,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JSON.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
+      <file leaf-file-name="AddingAnInlineImageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wh/test/AddingAnInlineImageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3465">
-              <caret line="147" column="29" lean-forward="false" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+            <state relative-caret-position="595">
+              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
               <folding>
-                <marker date="1571763596343" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1571763596343" expanded="false" signature="144:1747" ph="..." />
-                <marker date="1571763596343" expanded="true" signature="2422:2429" ph="{}" />
-                <marker date="1571763596343" expanded="true" signature="2488:2638" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="2683:2694" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="2737:2743" ph=" }" />
-                <marker date="1571763596343" expanded="false" signature="2809:2820" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="2871:2877" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="2958:3273" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="3333:3412" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="3480:3684" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="3801:4312" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="4422:5063" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="5130:5480" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="5556:5567" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="5608:5614" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="5670:6019" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="6114:6221" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="6309:6432" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="6544:6658" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="6741:6843" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="6952:7067" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="7171:7797" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="7903:8014" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="8139:8241" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="8390:9583" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="9668:9767" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="9890:10513" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="10647:11108" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="11205:11916" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="12021:12090" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="12212:12872" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="12938:12949" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="12981:12987" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="13041:13704" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="13776:14486" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="14557:15082" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="15136:15147" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="15189:15195" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="15281:15361" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="15468:15818" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="15937:16086" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="16196:16353" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="16466:16601" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="16686:16765" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="16874:17016" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="17122:17224" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="17334:17419" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="17553:17686" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="17823:17934" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="18111:19020" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="19026:19044" ph="/**...*/" />
-                <marker date="1571763596343" expanded="true" signature="19155:19249" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="19358:19459" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="19589:19681" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="19793:19913" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="20046:20164" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="20321:21019" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="21096:21211" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="21217:21235" ph="/**...*/" />
-                <marker date="1571763596343" expanded="true" signature="21338:21396" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="21498:21582" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="21705:21972" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="22100:22187" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="22336:22499" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="22644:22811" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="23047:24004" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="24034:24045" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="24072:24078" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="24113:24372" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="24429:24757" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="24809:24820" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="24878:24884" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="24890:24908" ph="/**...*/" />
-                <marker date="1571763596343" expanded="true" signature="24987:25061" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="25138:29096" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="29162:29247" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="29294:29305" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="29374:29380" ph=" }" />
-                <marker date="1571763596343" expanded="false" signature="29422:29433" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="29501:29507" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="29568:29728" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="29782:30174" ph="{...}" />
-                <marker date="1571763596343" expanded="true" signature="30228:30620" ph="{...}" />
-                <marker date="1571763596343" expanded="false" signature="30701:30712" ph=" { " />
-                <marker date="1571763596343" expanded="false" signature="30744:30750" ph=" }" />
-                <marker date="1571763596343" expanded="true" signature="30763:32065" ph="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateWordprocessingMLDocument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/CreateWordprocessingMLDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExportDocImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ExportDocImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1120">
+              <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Docx4jTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2765">
+              <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,18 +73,8 @@
       <file leaf-file-name="AssetsCategoryOfStock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/util/AssetsCategoryOfStock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/util/DataSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="175">
+              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -149,35 +83,39 @@
       <file leaf-file-name="WordTemplate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/WordTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6930">
-              <caret line="228" column="85" lean-forward="false" selection-start-line="228" selection-start-column="85" selection-end-line="228" selection-end-column="85" />
+            <state relative-caret-position="3461">
+              <caret line="274" column="21" lean-forward="true" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Docx4jDoTableAndImg.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jDoTableAndImg.java">
+      <file leaf-file-name="Tool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Tool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="270" column="50" lean-forward="true" selection-start-line="270" selection-start-column="50" selection-end-line="270" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9596#9611#0" expanded="true" />
-                <element signature="e#10582#10598#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-6224">
+              <caret line="102" column="79" lean-forward="false" selection-start-line="102" selection-start-column="77" selection-end-line="102" selection-end-column="79" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Doc4jWordHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/core/Doc4jWordHandler.java">
+      <file leaf-file-name="ReadDocTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ReadDocTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7700">
-              <caret line="238" column="76" lean-forward="false" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadDoc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ReadDoc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3410">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -236,11 +174,12 @@
         <option value="$PROJECT_DIR$/../rtrc-regist-center/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jDoTableAndImg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/CreateWordprocessingMLDocument.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wh/core/Doc4jWordHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/WordTemplate.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wh/test/Doc4jTest01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wh/test/AddingAnInlineImageTest.java" />
       </list>
     </option>
   </component>
@@ -281,9 +220,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-362" />
-    <option name="y" value="164" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="906" />
+    <option name="y" value="144" />
     <option name="width" value="1921" />
     <option name="height" value="1032" />
   </component>
@@ -398,6 +337,16 @@
               <item name="com.cyl.jFreeChartTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.cyl.jFreeChartTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wh" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.cyl.jFreeChartTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.cyl.jFreeChartTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -458,7 +407,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Docx4jDoTableAndImg">
+  <component name="RunManager" selected="Application.Docx4jTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -658,10 +607,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Docx4jDoTableAndImg" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Docx4jTest" />
         <item index="1" class="java.lang.String" itemvalue="Application.Doc4jTest01" />
-        <item index="2" class="java.lang.String" itemvalue="Application.CreateWordprocessingMLDocument" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Docx4jTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Docx4jDoTableAndImg" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CreateWordprocessingMLDocument" />
         <item index="4" class="java.lang.String" itemvalue="Application.PriceVolumeDemo1" />
       </list>
     </recent_temporary>
@@ -707,12 +656,12 @@
       <workItem from="1567049201382" duration="914000" />
       <workItem from="1568192508506" duration="132000" />
       <workItem from="1574993363716" duration="15783000" />
-      <workItem from="1575173305609" duration="102000" />
+      <workItem from="1575173305609" duration="7511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49971000" />
+    <option name="totallyTimeSpent" value="57380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -724,7 +673,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31071427" sideWeight="0.49784017" order="9" side_tool="false" content_ui="tabs" />
@@ -734,12 +684,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34047619" sideWeight="0.50431967" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54761904" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33571428" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34047619" sideWeight="0.49568033" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32289416" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16522679" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -784,11 +734,11 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="89" y="89" width="1742" height="842" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21428572" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1404762" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34047619" sideWeight="0.49568033" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32289416" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32775378" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -823,9 +773,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../MavenRepository/org/docx4j/docx4j/6.1.0/docx4j-6.1.0-sources.jar!/org/docx4j/wml/P.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/test/Tool.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/test/Docx4jTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/poiWord/WordTemplate.java" />
     <entry file="jar://$PROJECT_DIR$/lib/jfreechart-1.0.13.jar!/org/jfree/chart/ChartUtilities.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -957,18 +904,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/jFreeChartSource/PriceVolumeDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="105" column="52" lean-forward="false" selection-start-line="105" selection-start-column="52" selection-end-line="105" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -976,28 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="58" column="81" lean-forward="false" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ExportDocImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ReadDocTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1036,16 +954,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/CreateWordprocessingMLDocument.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jDoTableAndImg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="181">
+          <caret line="274" column="65" lean-forward="false" selection-start-line="274" selection-start-column="65" selection-end-line="274" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#9596#9611#0" expanded="false" />
+            <element signature="e#10582#10598#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
+        <state relative-caret-position="260">
           <caret line="147" column="29" lean-forward="false" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
           <folding>
             <marker date="1571763596343" expanded="false" signature="0:104" ph="/.../" />
@@ -1139,58 +1062,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="53" lean-forward="true" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/core/Doc4jWordHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/util/DataSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="385">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/util/AssetsCategoryOfStock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="175">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/CreateWordprocessingMLDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/WordTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6930">
-          <caret line="228" column="85" lean-forward="false" selection-start-line="228" selection-start-column="85" selection-end-line="228" selection-end-column="85" />
+        <state relative-caret-position="3461">
+          <caret line="274" column="21" lean-forward="true" selection-start-line="274" selection-start-column="21" selection-end-line="274" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6224">
+          <caret line="102" column="79" lean-forward="false" selection-start-line="102" selection-start-column="77" selection-end-line="102" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ReadDocTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ReadDoc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3410">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/ExportDocImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1120">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2765">
+          <caret line="89" column="1" lean-forward="true" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wh/test/Doc4jTest01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2765">
-          <caret line="97" column="27" lean-forward="false" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="30" column="62" lean-forward="false" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wh/core/Doc4jWordHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wh/test/AddingAnInlineImageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7700">
-          <caret line="238" column="76" lean-forward="false" selection-start-line="238" selection-start-column="76" selection-end-line="238" selection-end-column="76" />
+        <state relative-caret-position="595">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cyl/jFreeChartTest/docxTest/Docx4jDoTableAndImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="270" column="50" lean-forward="true" selection-start-line="270" selection-start-column="50" selection-end-line="270" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9596#9611#0" expanded="true" />
-            <element signature="e#10582#10598#0" expanded="true" />
           </folding>
         </state>
       </provider>

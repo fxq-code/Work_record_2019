@@ -1,27 +1,30 @@
-package com.wh.test;
+package org.cboard.genWord.WordTemplete.test;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.cyl.jFreeChartTest.docxTest.Docx4jDoTableAndImg;
-import com.cyl.jFreeChartTest.docxTest.WordTemplate;
-import com.cyl.jFreeChartTest.docxTest.util.AssetsCategoryOfStock;
-import com.cyl.jFreeChartTest.docxTest.util.DataSet;
-import com.wh.core.Doc4jWordHandler;
+import org.cboard.genWord.CoreEngine.entity.User;
+import org.cboard.genWord.WordTemplete.Doc4jWordHandler;
+import org.cboard.genWord.WordTemplete.FakeData.DataSet;
+import org.cboard.genWord.WordTemplete.Vo.AssetsCategoryOfStock;
+import org.cboard.genWord.WordTemplete.WordTemplate;
+import org.cboard.genWord.genImg.utils.SqlCommonUtil;
 import org.docx4j.model.datastorage.migration.VariablePrepare;
 import org.docx4j.openpackaging.exceptions.Docx4JException;
-import org.docx4j.openpackaging.exceptions.InvalidFormatException;
 import org.docx4j.openpackaging.packages.WordprocessingMLPackage;
 import org.docx4j.openpackaging.parts.WordprocessingML.MainDocumentPart;
 import org.docx4j.wml.Tbl;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Doc4jTest01 {
-
+/**
+ * Created by chenf on 2019/12/1.
+ */
+public class Doc4jDemo01 {
     public static void genSimpleWord01() throws Docx4JException {
         WordprocessingMLPackage wordMLPackage = WordprocessingMLPackage.createPackage();
 
@@ -67,20 +70,20 @@ public class Doc4jTest01 {
 
 
     public static void main(String[] args) throws Exception {
-    //genSimpleWord01();
+        //genSimpleWord01();
         Map<String, String> data = new HashMap();
         data.put("var", "三年二班");
         data.put("titile", "图1 xxx年度报告");
 
-        data.put("id", "图1 xxx年度报告");
-        data.put("name", "图1 xxx年度报告");
-        data.put("password", "图1 xxx年度报告");
+//        data.put("id", "图1 xxx年度报告");
+//        data.put("name", "图1 xxx年度报告");
+//        data.put("password", "图1 xxx年度报告");
+//
+//        data.put("id", "图1 xxx年度报告1");
+//        data.put("name", "图1 xxx年度报告2");
+//        data.put("password", "图1 xxx年度报告3");
 
-        data.put("id", "图1 xxx年度报告1");
-        data.put("name", "图1 xxx年度报告2");
-        data.put("password", "图1 xxx年度报告3");
-
-         String TEMPLATE_NAME = "D:\\doc4j\\test\\Demo1.docx";
+        String TEMPLATE_NAME = "D:\\doc4j\\test\\Demo1.docx";
         String target = "D:\\doc4j\\test\\wh_target" + System.currentTimeMillis() + ".docx";
         InputStream templateInputStream = new FileInputStream(TEMPLATE_NAME);
         //加载模板文件并创建WordprocessingMLPackage对象
@@ -95,26 +98,24 @@ public class Doc4jTest01 {
 //        markAndImgroute.put("沪深300以及组合分析图片放置处", "E:\\bigData\\workSystemFile\\workSystemFile\\png1-1.png");
 //        markAndImgroute.put("中债以及组合分析图片放置处", "E:\\bigData\\workSystemFile\\workSystemFile\\png2-2.png");
         //addImgOnMarkPosition(template, markAndImgroute);
-       Doc4jWordHandler.addImgOnTextPosition(template, markAndImgroute);
+        Doc4jWordHandler.addImgOnTextPosition(template, markAndImgroute);
 
 
         // -------------------------表格修改----------------------------------
-        // 组装模拟数据
-        DataSet dataset = new DataSet();
-        List<AssetsCategoryOfStock> demoList = dataset.getDemoList();
-        String totalData = dataset.getTotalData(demoList);
-        System.out.println("totalData "+totalData);
-        JSONObject totalDataJson = JSONObject.parseObject(totalData);
-        System.out.println("totalDataJson "+totalDataJson+" "+totalData.equals(totalDataJson));
         // 获取doc中所有的表格
         List<Object> tables = WordTemplate.getAllElementFromObject(template.getMainDocumentPart(), Tbl.class);
         System.out.println("此doc一共有" + tables.size() + " 个表格！"+tables.get(0).toString());
         // 根据特殊标签获取要修改的表格
         Tbl tempTable = WordTemplate.getTemplateTable(tables, "序号");
-        JSONArray jsonArray = JSONArray.parseArray(JSON.toJSONString(demoList));
-        Doc4jWordHandler.addDocTableRows(tempTable, 3, jsonArray, true, totalDataJson);
 
-      WordTemplate.writeDocxToStream(template, target);
+
+        //填充表格 的使用demo 案例
+        ArrayList<HashMap> list1= SqlCommonUtil.getResultList("select * from tbl_user",null);
+        System.out.println(list1);
+        Doc4jWordHandler.fillTables(tempTable,2,list1);
+
+
+        WordTemplate.writeDocxToStream(template, target);
 
 
 

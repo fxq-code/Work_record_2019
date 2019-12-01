@@ -23,7 +23,7 @@ public class Docx4jTest {
         bmList.add("usersex");
 
         // 文件源目录
-        String srcPath = "E:\\bigData\\workSystemFile\\workSystemFile\\demo2.docx";
+        String srcPath = "D:\\doc4j\\test\\Demo2.docx";
         // 目标文件目录
         String destPath = "E:\\bigData\\workSystemFile\\workSystemFile\\wh_target_"+ UUID.randomUUID().toString()+".docx";
         Map<String, String> map = new HashMap<String,String>();
@@ -35,6 +35,8 @@ public class Docx4jTest {
         WordprocessingMLPackage wPackage = WordprocessingMLPackage.load(new FileInputStream(srcPath));
         // 作word处理
         WordprocessingMLPackage wPackage1 = replaceContentByBookmark(wPackage, map, bmList);
+        wPackage1.save(new File(destPath));
+       // Docx4J.toPDF(wPackage1,new FileOutputStream(new File("E:\\bigData\\workSystemFile\\workSystemFile\\wh_target_"+ UUID.randomUUID().toString()+".pdf")));
       /*  wPackage1.save(new File(destPath));
         Docx4J.toPDF(wPackage1,new FileOutputStream(new File("C:\\work\\workSystemFile\\5.pdf")));*/
 
