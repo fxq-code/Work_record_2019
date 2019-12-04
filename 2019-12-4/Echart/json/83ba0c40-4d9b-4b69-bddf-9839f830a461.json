@@ -1,0 +1,68 @@
+{
+  "title": {
+    "subtext": "呵呵哒",
+    "textStyle": {
+      "color": "rgba(30,144,255,0.8)",
+      "fontSize": 25,
+      "fontFamily": "微软雅黑",
+      "fontWeight": "bolder"
+    },
+    "x": "center",
+    "y": "top",
+    "itemGap": 20
+  },
+  "tooltip": {
+    "formatter": "{a} <br/>{b} : {c} ({d}%)",
+    "show": true
+  },
+  "legend": {
+    "orient": "vertical",
+    "data": [
+      "68%的人表示过的不错",
+      "29%的人表示生活压力很大",
+      "3%的人表示“我姓曾”"
+    ],
+    "x": "left"
+  },
+  "series": [
+    {
+      "radius": [
+        0,110
+      ],
+      "name": "1",
+      "type": "pie",
+      "label": {
+        "normal": {
+          "formatter": function (params,ticket,callback) {
+            var index=params.dataIndex;
+            var res;
+            if(index==2){
+               res =params.name+':'+params.values ;
+              
+            }else{
+               res =params.name+':'+params.values/1000000000000;
+              
+            }  return res   
+          },
+          "textStyle": {
+            "color": "#777"
+          }
+        }
+      },
+      "data": [
+        {
+          "name": "68%的人表示过的不错",
+          "value": "1"
+        },
+        {
+          "name": "29%的人表示生活压力很大",
+          "value": "1"
+        },
+        {
+          "name": "3%的人表示“我姓曾”",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": {
+    "text": "呵呵哒"
+  },
+  "tooltip": {
+    "trigger": "axis"
+  },
+  "xAxis": [
+    {
+      "type": "category",
+      "axisLabel": {
+        "formatter": "{value} km"
+      },
+      "data": [
+        "老年人",
+        "儿童",
+        "妇女",
+        "高血压",
+        "糖尿病",
+        "精神病",
+        "冠心病"
+      ]
+    }
+  ],
+  "yAxis": [
+    {
+      "type": "value",
+      "axisLabel": {
+        "formatter": "{value} C"
+      }
+    }
+  ],
+  "series": [
+    {
+      "areaStyle": {
+        
+      },
+      "name": "呵呵哒",
+      "type": "line",
+      "data": [
+        0,6,1,7,6,4,4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": {
+    "subtext": "呵呵哒",
+    "textStyle": {
+      "color": "rgba(30,144,255,0.8)",
+      "fontSize": 25,
+      "fontFamily": "微软雅黑",
+      "fontWeight": "bolder"
+    },
+    "x": "center",
+    "y": "top",
+    "itemGap": 20
+  },
+  "tooltip": {
+    "formatter": "{a} <br/>{b} : {c} ({d}%)",
+    "show": true
+  },
+  "legend": {
+    "orient": "vertical",
+    "x": "left"
+  },
+  "series": [
+    {
+      "center": [
+        "17.5%",
+        "50.0%"
+      ],
+      "radius": "25.0%",
+      "startAngle": 180,
+      "endAngle": 0,
+      "axisLine": {
+        "lineStyle": {
+          "width": 10
+        }
+      },
+      "axisLabel": {
+        "formatter": function (value) {
+          switch (value) {
+             case 0: return 0;
+            case 50: return 50*100;
+            case 100: return 100*100;
+            default: return '';
+             
+          } 
+        }
+      },
+      "splitLine": {
+        "lineStyle": {
+          "width": 0
+        }
+      },
+      "pointer": {
+        "width": 1
+      },
+      "detail": {
+        "formatter": "访问:8196.0",
+        "textStyle": {
+          "fontSize": 15
+        }
+      },
+      "type": "gauge",
+      "data": [
+        {
+          "name": "",
+          "value": 81.96
+        }
+      ]
+    },
+    {
+      "radius": "40.0%",
+      "startAngle": 180,
+      "endAngle": 0,
+      "axisLine": {
+        "lineStyle": {
+          "width": 10
+        }
+      },
+      "axisLabel": {
+        "formatter": function (value) {
+          switch (value) {
+             case 0: return 0;
+            case 50: return 50+'E4';
+            case 100: return 100+'E4';
+            default: return '';
+             
+          } 
+        }
+      },
+      "splitLine": {
+        "lineStyle": {
+          "width": 0
+        }
+      },
+      "pointer": {
+        "width": 1
+      },
+      "detail": {
+        "formatter": "咨询:343074",
+        "textStyle": {
+          "fontSize": 15
+        }
+      },
+      "type": "gauge",
+      "data": [
+        {
+          "name": "",
+          "value": 34
+        }
+      ]
+    },
+    {
+      "center": [
+        "82.5%",
+        "50.0%"
+      ],
+      "radius": "25.0%",
+      "startAngle": 180,
+      "endAngle": 0,
+      "axisLine": {
+        "lineStyle": {
+          "width": 10
+        }
+      },
+      "axisLabel": {
+        "formatter": function (value) {
+          switch (value) {
+             case 0: return 0;
+            case 50: return 50+'E11';
+            case 100: return 100+'E11';
+            default: return '';
+             
+          } 
+        }
+      },
+      "splitLine": {
+        "lineStyle": {
+          "width": 0
+        }
+      },
+      "pointer": {
+        "width": 1
+      },
+      "detail": {
+        "formatter": "订单:5494550000000",
+        "textStyle": {
+          "fontSize": 15
+        }
+      },
+      "type": "gauge",
+      "data": [
+        {
+          "name": "",
+          "value": 54.9455
+        }
+      ]
+    }
+  ]
+}
